@@ -1,0 +1,7 @@
+{
+  "commands": [
+    "pip install -r requirements.txt",
+    "python -m app.database.database create_all",
+    "python -m app.main"
+  ]
+}
