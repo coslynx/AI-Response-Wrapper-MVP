@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.eggs
+*.egg-info
+dist
+build
+docs/_build
+.tox
+
+# Sphinx documentation
+docs/build
+
+# PyInstaller
+*.pyz
+*.pyo
+*.pyd
+__pycache__
+build
+
+# Django
+*.log
+.DS_Store
+local_settings.py
+db.sqlite3
+*sqlite3
+
+# Flask
+.flask_test
+
+# Jupyter Notebook files
+.ipynb_checkpoints
+
+# Virtual environment
+.env
+venv
+env
+.venv
+__pycache__
+/.idea/
+
+# Environment variables
+.env
+*.env
+
+# Ignore database files to keep the repository lean
+# If using a local database:
+db.sqlite3
+*sqlite3
+
+# Ignore test files and directories
+tests/
+*.test.py
+
+# Ignore IDE and editor settings files
+.idea/
+*.iml
+.vscode/
+
+# Ignore build and deployment artifacts
+dist/
+build/
